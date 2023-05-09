@@ -1,0 +1,14 @@
+{
+    "name": "My App",
+    "description": "Next.js, MySQL, PHP, Nginx, and phpMyAdmin on Heroku",
+    "stack": "container",
+    "addons": [
+      {
+        "plan": "heroku-postgresql",
+        "options": {
+          "version": "13"
+        }
+      }
+    ]
+  }
+  
